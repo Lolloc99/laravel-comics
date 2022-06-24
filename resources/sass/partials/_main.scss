@@ -1,0 +1,100 @@
+main {
+    .banner {
+        height: 400px;
+        overflow-y: hidden;
+    }
+
+    section {
+        text-align: center;
+        position: relative;
+        background-color: #1c1c1c;
+        padding: 1.5rem 0;
+
+        .btn-series {
+            position: absolute;
+            top: -2rem;
+            left: 20rem;
+            padding: 1rem 1.8rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: #0282f9;
+            color: white;
+            border: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            z-index: 999;
+            overflow-y: inherit;
+        }
+
+        .btn-more {
+            padding: 0.7rem 3rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            background-color: #0282f9;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 1.5rem 0;
+        text-align: start;
+    }
+
+    .card {
+        width: calc(100% / 6 - 1.5rem);
+        margin-bottom: 2rem;
+
+        .img {
+            height: 200px;
+            overflow-y: hidden;
+        }
+
+        h3 {
+            margin-top: 1rem;
+            color: white;
+        }
+    }
+
+    .bonus {
+        width: 100%;
+        background-color: #0282f9;
+        padding: 1rem;
+        position: relative;
+        z-index: 1;
+
+        .bonus-content {
+            display: flex;
+            align-items: center;
+        }
+
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+        }
+        
+        img {
+          width: 50px;
+          margin-right: 1rem;
+        }
+
+        h3 {
+          display: inline-block;
+          color: white;
+          text-transform: uppercase;
+          font-weight: lighter;
+        }
+    }
+}

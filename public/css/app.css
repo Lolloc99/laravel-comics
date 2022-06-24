@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 
@@ -22,20 +22,22 @@ a {
   color: inherit;
 }
 
+.active {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+
 header {
   width: 100%;
 }
-
 header .blu-start-string {
   background-color: #0282f9;
   text-align: end;
 }
-
 header .blu-start-string div {
   width: 70%;
   margin: auto;
 }
-
 header .blu-start-string p {
   display: inline-block;
   font-size: 0.7rem;
@@ -44,42 +46,199 @@ header .blu-start-string p {
   text-transform: uppercase;
   padding: 0.4rem;
 }
-
 header .blu-start-string p:first-child {
   margin-right: 3rem;
 }
-
 header nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
 }
-
 header nav .logo {
   width: 80px;
 }
-
 header nav ul {
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: space-around;
+  width: 70%;
 }
-
 header nav ul li {
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 2px solid transparent;
 }
-
 header nav ul .active {
   color: #0282f9;
   border-bottom: 2px solid #0282f9;
 }
-
 header nav .searchbar input {
   border: none;
   border-bottom: 3px solid #0282f9;
   text-align: end;
 }
 
+main .banner {
+  height: 400px;
+  overflow-y: hidden;
+}
+main section {
+  text-align: center;
+  position: relative;
+  background-color: #1c1c1c;
+  padding: 1.5rem 0;
+}
+main section .btn-series {
+  position: absolute;
+  top: -2rem;
+  left: 20rem;
+  padding: 1rem 1.8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #0282f9;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 999;
+  overflow-y: inherit;
+}
+main section .btn-more {
+  padding: 0.7rem 3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #0282f9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+main .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  text-align: start;
+}
+main .card {
+  width: calc(16.6666666667% - 1.5rem);
+  margin-bottom: 2rem;
+}
+main .card .img {
+  height: 200px;
+  overflow-y: hidden;
+}
+main .card h3 {
+  margin-top: 1rem;
+  color: white;
+}
+main .bonus {
+  width: 100%;
+  background-color: #0282f9;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+main .bonus .bonus-content {
+  display: flex;
+  align-items: center;
+}
+main .bonus ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .bonus li {
+  display: flex;
+  align-items: center;
+}
+main .bonus img {
+  width: 50px;
+  margin-right: 1rem;
+}
+main .bonus h3 {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.footer {
+  width: 100%;
+  background-image: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer h3 {
+  padding: 1rem 0;
+  color: white;
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer li {
+  margin: 0.3rem 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: lighter;
+}
+.footer .left-col {
+  display: flex;
+}
+.footer .col {
+  display: inline-block;
+  padding-top: 1.5rem;
+  margin-right: 2rem;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 1.8rem 0;
+}
+.footer .logoimg {
+  position: absolute;
+  right: 0;
+  bottom: -5rem;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.footer-bottom {
+  width: 100%;
+  background-color: #303030;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid #0282f9;
+  background-color: #303030;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-container h2 {
+  color: #0282f9;
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+.social-container img {
+  margin: 0 0.7rem;
+}
