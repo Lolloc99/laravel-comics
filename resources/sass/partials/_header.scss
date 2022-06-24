@@ -1,0 +1,66 @@
+header {
+    width: 100%;
+
+
+    .blu-start-string {
+        background-color: #0282f9;
+        text-align: end;
+
+        div {
+            width: 70%;
+            margin: auto;
+        }
+
+        p {
+            display: inline-block;
+            font-size: .7rem;
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+            padding: .4rem;
+
+            &:first-child{
+                margin-right: 3rem;
+            }
+        }
+    }
+
+    nav {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            width: 80px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+           
+            li {
+                text-transform: uppercase;
+                font-weight: bold;
+                border-bottom: 2px solid transparent;
+            }
+
+            .active {
+                color: #0282f9;
+                border-bottom: 2px solid #0282f9;
+            }
+        }
+
+        .searchbar {
+            
+            input {
+                border: none;
+                border-bottom: 3px solid #0282f9;
+                text-align: end;
+            }
+        }
+    }
+}

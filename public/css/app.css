@@ -4,3 +4,82 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  width: 100%;
+}
+
+header .blu-start-string {
+  background-color: #0282f9;
+  text-align: end;
+}
+
+header .blu-start-string div {
+  width: 70%;
+  margin: auto;
+}
+
+header .blu-start-string p {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.4rem;
+}
+
+header .blu-start-string p:first-child {
+  margin-right: 3rem;
+}
+
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+header nav .logo {
+  width: 80px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+header nav ul .active {
+  color: #0282f9;
+  border-bottom: 2px solid #0282f9;
+}
+
+header nav .searchbar input {
+  border: none;
+  border-bottom: 3px solid #0282f9;
+  text-align: end;
+}
+

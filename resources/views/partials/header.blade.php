@@ -1,17 +1,50 @@
 <header>
-    <h1>ciao dall'header</h1>
+    <div class="blu-start-string">
+        <div>
+            <p>DC Power&trade; Visa&copy;</p>
+            <p>Additional DC sites</p>
+        </div>
+    </div>
     <nav>
-        <h2>ciao dalla nav dell'header</h2>
-        <ul>
-            <li>
-                <a href="">ciao 1</a>
-            </li>
-            <li>
-                <a href="">ciao 2</a>
-            </li>
-            <li>
-                <a href="">ciao 3</a>
-            </li>
-        </ul>
+        <div class="container">
+            <div class="logo">
+                <img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC">
+            </div>
+            <ul class="links">
+                <li>
+                    <a href="">Characters</a>
+                </li>
+                <li class="active">
+                    <a href="">Comics</a>
+                </li>
+                <li>
+                    <a href="">Movies</a>
+                </li>
+                <li>
+                    <a href="">Tv</a>
+                </li>
+                <li>
+                    <a href="">Games</a>
+                </li>
+                <li>
+                    <a href="">Collectibles</a>
+                </li>
+                <li>
+                    <a href="">Videos</a>
+                </li>
+                <li>
+                    <a href="">Fans</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Shop</a>
+                </li>
+            </ul>
+            <div class="searchbar">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
     </nav>
 </header>
