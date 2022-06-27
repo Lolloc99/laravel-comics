@@ -21,3 +21,7 @@ Route::get('/', function () {
     ];
     return view('homepage', $data);
 });
+
+Route::get('single-comic', function () {
+    return view('single-comic');
+});

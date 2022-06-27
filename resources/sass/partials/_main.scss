@@ -1,9 +1,4 @@
 main {
-    .banner {
-        height: 400px;
-        overflow-y: hidden;
-    }
-
     section {
         text-align: center;
         position: relative;
@@ -97,4 +92,88 @@ main {
           font-weight: lighter;
         }
     }
+
+    // Main del single comic
+
+    .blu-bg {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background-color: #0282f9;
+    }
+
+    .img-chosen-comic {
+        position: absolute;
+        bottom: 25px;
+        left: 28rem;
+        width: 10%;
+        border: 1px solid white;
+
+        div {
+            color: white;
+            text-transform: uppercase;
+            font-size: .8rem;
+            padding: .2rem;
+        }
+
+        .up-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            background-color: #0aa9d9;
+        }
+
+        .bottom-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #0aa9d9;
+        }
+    }
+
+    .deluxe-edition {
+        padding: 5rem 0;
+        background-color: white;
+
+        .div-cont {
+            display: flex;
+        }
+
+        .col-sx {
+            width: 65%;
+            background-color: lightgreen;
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 1.7rem;
+                color: #013f5e;
+                margin-bottom: 1rem;
+            }
+
+            .price-tab {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+            }
+
+            .tab-1 {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+            }
+        }
+
+        .col-dx {
+            width: 35%;
+            // padding: 1rem;
+            background-color: lightblue;
+        }
+    }
+
 }
+
+// verde #55ba59
+// grigio #f6f6f6

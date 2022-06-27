@@ -9,6 +9,11 @@
   margin: auto;
 }
 
+.container-s {
+  width: 53%;
+  margin: auto;
+}
+
 img {
   width: 100%;
 }
@@ -29,6 +34,10 @@ a {
 
 header {
   width: 100%;
+}
+header .banner {
+  height: 400px;
+  overflow-y: hidden;
 }
 header .blu-start-string {
   background-color: #0282f9;
@@ -78,10 +87,6 @@ header nav .searchbar input {
   text-align: end;
 }
 
-main .banner {
-  height: 400px;
-  overflow-y: hidden;
-}
 main section {
   text-align: center;
   position: relative;
@@ -162,6 +167,71 @@ main .bonus h3 {
   color: white;
   text-transform: uppercase;
   font-weight: lighter;
+}
+main .blu-bg {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #0282f9;
+}
+main .img-chosen-comic {
+  position: absolute;
+  bottom: 25px;
+  left: 28rem;
+  width: 10%;
+  border: 1px solid white;
+}
+main .img-chosen-comic div {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+}
+main .img-chosen-comic .up-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  background-color: #0aa9d9;
+}
+main .img-chosen-comic .bottom-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #0aa9d9;
+}
+main .deluxe-edition {
+  padding: 5rem 0;
+  background-color: white;
+}
+main .deluxe-edition .div-cont {
+  display: flex;
+}
+main .deluxe-edition .col-sx {
+  width: 65%;
+  background-color: lightgreen;
+}
+main .deluxe-edition .col-sx h1 {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: #013f5e;
+  margin-bottom: 1rem;
+}
+main .deluxe-edition .col-sx .price-tab {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+main .deluxe-edition .col-sx .tab-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+main .deluxe-edition .col-dx {
+  width: 35%;
+  background-color: lightblue;
 }
 
 .footer {

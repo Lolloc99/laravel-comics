@@ -1,6 +1,10 @@
 header {
     width: 100%;
 
+    .banner {
+        height: 400px;
+        overflow-y: hidden;
+    }
 
     .blu-start-string {
         background-color: #0282f9;

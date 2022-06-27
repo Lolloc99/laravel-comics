@@ -46,5 +46,8 @@
                 <input type="text" placeholder="Search">
             </div>
         </div>
+        <div class="banner">
+            <img src="{{ asset('images/jumbotron.jpg') }}" alt="Banner DC">
+        </div>
     </nav>
 </header>
