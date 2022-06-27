@@ -11,10 +11,9 @@
     <section>
         <button class="btn-series">Current Series</button>
         <div class="container">
-            {{-- Temporaneo causa non funzionamento del passaggio degli oggetti, da risolvere --}}
-            @for ($i = 0; $i < 12; $i++)
-                @include('components.comics-card'); 
-            @endfor
+            @foreach ($comics_array as $comic)
+              @include('components.comics-card');
+            @endforeach
         </div>
         <button class="btn-more">Load More</button>
     </section>
