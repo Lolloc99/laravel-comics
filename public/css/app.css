@@ -137,6 +137,12 @@ main .card h3 {
   margin-top: 1rem;
   color: white;
 }
+main .card h3 :hover {
+  color: #0dbae6;
+}
+main .card h3 :active {
+  color: #013f5e;
+}
 main .bonus {
   width: 100%;
   background-color: #0282f9;
@@ -262,6 +268,8 @@ main .deluxe-edition .col-dx p {
   text-transform: uppercase;
 }
 main .talent-specs {
+  position: relative;
+  z-index: 1;
   background-color: #f6f6f6;
   border: 1px solid lightgrey;
 }

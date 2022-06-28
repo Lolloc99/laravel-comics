@@ -53,6 +53,14 @@ main {
         h3 {
             margin-top: 1rem;
             color: white;
+
+            :hover {
+                color: #0dbae6;
+            }
+
+            :active {
+                color: #013f5e;
+            }
         }
     }
 
@@ -212,6 +220,8 @@ main {
 
     // Info fumetto parte 2
     .talent-specs {
+        position: relative;
+        z-index: 1;
         background-color: #f6f6f6;
         border: 1px solid lightgrey;
 
