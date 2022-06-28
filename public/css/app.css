@@ -211,7 +211,6 @@ main .deluxe-edition .div-cont {
 }
 main .deluxe-edition .col-sx {
   width: 65%;
-  background-color: lightgreen;
 }
 main .deluxe-edition .col-sx h1 {
   text-transform: uppercase;
@@ -219,19 +218,48 @@ main .deluxe-edition .col-sx h1 {
   color: #013f5e;
   margin-bottom: 1rem;
 }
+main .deluxe-edition .col-sx span {
+  color: white;
+}
 main .deluxe-edition .col-sx .price-tab {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
+  background-color: #55ba59;
+  padding: 1rem;
+  border-bottom: 1px solid black;
 }
 main .deluxe-edition .col-sx .tab-1 {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  align-items: center;
+  width: 75%;
+  padding: 0 1rem;
+}
+main .deluxe-edition .col-sx .tab-1 .green-text {
+  color: #bafd9c;
+}
+main .deluxe-edition .col-sx .tab-1 .available {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+main .deluxe-edition .col-sx .description {
+  color: grey;
+  letter-spacing: 1px;
+}
+main .deluxe-edition .col-sx .tab-2 {
+  border-left: 1px solid black;
+}
+main .deluxe-edition .col-sx .tab-2 span {
+  margin-left: 1rem;
 }
 main .deluxe-edition .col-dx {
   width: 35%;
-  background-color: lightblue;
+}
+main .deluxe-edition .col-dx p {
+  text-align: end;
+  text-transform: uppercase;
 }
 
 .footer {

@@ -134,6 +134,7 @@ main {
         }
     }
 
+    // Info fumetto
     .deluxe-edition {
         padding: 5rem 0;
         background-color: white;
@@ -144,7 +145,6 @@ main {
 
         .col-sx {
             width: 65%;
-            background-color: lightgreen;
 
             h1 {
                 text-transform: uppercase;
@@ -153,27 +153,60 @@ main {
                 margin-bottom: 1rem;
             }
 
+            span {
+                color: white;
+            }
+
             .price-tab {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 margin-bottom: 1rem;
+                background-color: #55ba59;
+                padding: 1rem;
+                border-bottom: 1px solid black;
             }
 
             .tab-1 {
                 display: flex;
                 justify-content: space-between;
-                width: 80%;
+                align-items: center;
+                width: 75%;
+                padding: 0 1rem;
+
+                .green-text {
+                    color: #bafd9c;
+                }
+    
+                .available {
+                    font-size: .8rem;
+                    font-weight: bold;
+                }
+            }
+
+            .description {
+                color: grey;
+                letter-spacing: 1px;
+            }
+
+
+            .tab-2 {
+                border-left: 1px solid black;
+                
+                span {
+                    margin-left: 1rem;
+                }
             }
         }
 
         .col-dx {
             width: 35%;
             // padding: 1rem;
-            background-color: lightblue;
+
+            p {
+                text-align: end;
+                text-transform: uppercase;
+            }
         }
     }
-
 }
-
-// verde #55ba59
-// grigio #f6f6f6

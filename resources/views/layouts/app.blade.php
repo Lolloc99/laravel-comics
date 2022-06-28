@@ -7,6 +7,7 @@
     <title>
         @yield('title')
     </title>
+    <link rel="icon" type="image/x-icon" href="{{asset('/images/favicon.ico')}}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
