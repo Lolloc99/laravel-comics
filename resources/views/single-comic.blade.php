@@ -41,4 +41,58 @@
             </div>
         </div>
     </div>
+    {{-- Info fumetto parte 2 --}}
+    <div class="talent-specs">
+        <div class="container-s">
+            {{-- Top --}}
+            <div class="div-cont">
+                <div class="col-sx">
+                    <h3>Talent</h3>
+                    <div class="spacer">
+                        <small>Art by:</small>
+                        <p>
+                            @foreach ($comics['artists'] as $name)
+                                {{$name}}<span class="black">,</span>
+                            @endforeach
+                        </p>
+                    </div>
+                    <div class="spacer">
+                        <small>Written by:</small>
+                        <p>
+                            @foreach ($comics['writers'] as $name)
+                                {{$name}}<span class="black">,</span>
+                            @endforeach
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-dx">
+                    <h3>Specs</h3>
+                    <div class="spacer">
+                        <small>Series:</small>
+                        <p> {{$comics['series']}} </p>
+                    </div>
+                    <div class="spacer">
+                        <small>U.S Price::</small>
+                        <p class="black"> {{$comics['price']}} </p>
+                    </div>
+                    <div class="spacer">
+                        <small>On Sale Date:</small>
+                        <p class="black"> {{$comics['sale_date']}} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Bottom --}}
+        <div class="container-s bottom-info">
+            <div class="div-cont">
+                @for ($i = 0; $i <= 3; $i++)
+                    <div class="card-merch">
+                        <span>Digital Comics</span>
+                        <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
+                    </div> 
+                @endfor
+            </div>
+        </div>
+    </div>
 @endsection

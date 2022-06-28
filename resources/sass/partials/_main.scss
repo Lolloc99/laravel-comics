@@ -136,7 +136,7 @@ main {
 
     // Info fumetto
     .deluxe-edition {
-        padding: 5rem 0;
+        padding: 5.3rem 0;
         background-color: white;
 
         .div-cont {
@@ -206,6 +206,84 @@ main {
             p {
                 text-align: end;
                 text-transform: uppercase;
+            }
+        }
+    }
+
+    // Info fumetto parte 2
+    .talent-specs {
+        background-color: #f6f6f6;
+        border: 1px solid lightgrey;
+
+        h3 {
+            font-size: 1.3rem;
+            padding: 1.2rem 0;
+            color: #013f5e;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        small {
+            width: 20%;
+            font-weight: bold;
+            color: #013f5e;
+        }
+
+        p {
+            width: 60%;
+            font-size: small;
+            color: #0dbae6;
+        }
+
+        .black {
+            color: black;
+        }
+
+        .spacer {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        .div-cont {
+            display: flex;
+            justify-content: space-between;
+
+            .col-sx {
+                width: calc(100% / 2 - 2rem);
+            }
+
+            .col-dx {
+                width: calc(100% / 2 - 2rem);
+            }
+        }
+    }
+
+    .bottom-info {
+
+        .div-cont {
+            margin-top: 7rem;
+            border-top: 1px solid lightgrey;
+        }
+
+        .card-merch {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            width: calc(100% / 4);
+            border-left: 1px solid lightgrey;
+            border-right: 1px solid lightgrey;
+
+            span {
+                font-weight: bold;
+                font-size: .8rem;
+                text-transform: uppercase;
+                color: grey;
+            }
+
+            img {
+                width: 20%;
+                filter: invert(.7);
             }
         }
     }
